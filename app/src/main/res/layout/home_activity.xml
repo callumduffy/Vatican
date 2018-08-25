@@ -13,33 +13,31 @@
 
 
     <Button
-        android:text="Add Rules"
+        android:text="How To Play"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
+        android:id="@+id/tutorialButton"
         android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/button"
+        android:layout_alignStart="@+id/newGameButton"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
     <Button
         android:text="New Game"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:layout_above="@+id/button3"
+        android:id="@+id/newGameButton"
+        android:layout_above="@+id/tutorialButton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="29dp"
-        android:elevation="0dp"
-        android:visibility="visible"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 
     <Button
-        android:text="Settings"
+        android:text="Add Rules"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/addRulesButton"
         android:layout_marginTop="30dp"
-        android:layout_below="@+id/button3"
-        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/tutorialButton"
+        android:layout_alignStart="@+id/tutorialButton"
         style="@android:style/Widget.DeviceDefault.Button"
         android:layout_width="match_parent"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
